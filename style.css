@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+}
+
+html{
+    font-size:100% ;
+}
+
+.main-div
+{
+background-color:#b9c7ff ;
+min-height: 100vh;
+width: 100vw;
+display: grid;
+place-items: center;
+}
+
+.inner-div{
+
+    background-color: white;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(127, 126, 126);
+
+}
+
+.heading{
+
+font-size: 1.5rem;
+font-weight: 500;
+margin-bottom: 1rem;
+font-family: 'Lora', serif;
+
+}
+
+.list
+{
+    font-size: 1rem;
+    padding: .5rem;
+   list-style: none;
+  
+}
+
+input
+{
+    cursor: pointer;
+}
+
+
+
+#submit, .btn
+{
+padding: .6rem 1.5rem;
+justify-content: center;
+display: block;
+margin: auto;
+margin-top: 2rem;
+border: none;
+background-color:hsl(224, 78%, 66%) ;
+color: rgb(255, 255, 255);
+font-weight: bold;
+}
+
+#submit:hover{
+    background-color: rgb(69, 243, 95);
+}
+
+.btn:hover{
+    background-color: rgb(69, 243, 95);
+}
+
+#showScore{
+background-color: rgb(231, 238, 238);
+margin-top: 2rem;
+padding: 3rem 4rem;
+box-shadow: 0 1rem 1rem -0.5rem rgb(127, 126, 126);
+}
+
+.scoreArea
+ {
+    display: none;
+}
+
+
+.hii{
+ text-align: center;
+}
+
+
+@media screen and (max-width :905px)
+{
+   .heading{
+    font-size: 1.5rem;
+   }
+
+
+   .inner-div{
+
+  
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(127, 126, 126);
+
+}
+
+}
+
+
+@media screen and (max-width :710px){
+   
+    
+        .heading{
+         font-size: 1rem;
+        }
+     
+     
+        .inner-div{
+     
+       
+         padding: 1rem 1rem;
+         border-radius: 1rem;
+         box-shadow: 0 1rem 1rem -0.7rem rgb(127, 126, 126);
+     
+     }
+}
+
+@media screen and (max-width :470px){
+   
+    
+        .heading{
+         font-size: .8rem;
+        }
+     
+     
+        .inner-div{
+     
+       
+         padding: 1rem 1rem;
+         border-radius: 1rem;
+         box-shadow: 0 1rem 1rem -0.7rem rgb(127, 126, 126);
+    
+     }
+.list{
+    font-size: .8rem;
+}
+}
